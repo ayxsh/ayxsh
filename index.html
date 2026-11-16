@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Company culture and benefits</title>
+  <meta name="description" content="How we work and what we offer. Content is maintained in Git.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700&family=IBM+Plex+Sans:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="top">
+    <a class="brand" href="#top" id="top">Your Company</a>
+    <nav aria-label="Sections">
+      <a href="#culture">Culture</a>
+      <a href="#benefits">Benefits</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="intro">
+      <h1>How we work, and what we offer</h1>
+      <p>Everything on this page is read from files in our Git repository, so every change has an author, a date and a history.</p>
+    </section>
+
+    <section id="culture" class="block" aria-labelledby="culture-h">
+      <div class="label">
+        <h2 id="culture-h">Company culture</h2>
+        <p class="source" data-source="culture"></p>
+      </div>
+      <div class="content" id="culture-content" aria-live="polite">Loading…</div>
+    </section>
+
+    <section id="benefits" class="block" aria-labelledby="benefits-h">
+      <div class="label">
+        <h2 id="benefits-h">Benefits</h2>
+        <p class="source" data-source="benefits"></p>
+      </div>
+      <div class="content" id="benefits-content" aria-live="polite">Loading…</div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Content source: <a id="repo-link" href="#">Git repository</a>. To change this page, edit the files in the <code>data/</code> folder and commit.</p>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
