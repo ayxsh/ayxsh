@@ -1,0 +1,20 @@
+{
+  "intro": "Sample content: replace this with your real culture statement.",
+  "sections": [
+    {
+      "heading": "What we value",
+      "items": [
+        { "title": "Own the outcome", "description": "Teams decide how to solve a problem and stay accountable for the result." },
+        { "title": "Learn in the open", "description": "We share what worked and what didn't, in writing, so others can build on it." },
+        { "title": "Respect people's time", "description": "Meetings have an agenda. Decisions are written down." }
+      ]
+    },
+    {
+      "heading": "How we work",
+      "items": [
+        { "title": "Flexible hours", "description": "Core overlap hours are agreed per team. The rest is up to you." },
+        { "title": "Regular feedback", "description": "Short check-ins every month, formal reviews twice a year." }
+      ]
+    }
+  ]
+}
