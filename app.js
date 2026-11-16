@@ -4,7 +4,7 @@ const CONFIG = {
   repo: "ayxsh.github.io",
   branch: "main"
 };
-------------------------------------------------
+//------------------------------------------------
 
 const FILES = { culture: "culture.json", benefits: "benefits.json" };
 
