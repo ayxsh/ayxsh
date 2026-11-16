@@ -1,10 +1,9 @@
 // ---- CONFIG: set these to your GitHub details ----
 const CONFIG = {
-  owner: "YOUR-GITHUB-USERNAME",
-  repo: "YOUR-REPO-NAME",
+  owner: "ayxsh",
+  repo: "ayxsh.github.io",
   branch: "main"
-};
-// --------------------------------------------------
+};------------------------------------------------
 
 const FILES = { culture: "culture.json", benefits: "benefits.json" };
 
