@@ -1,7 +1,7 @@
 // ---- CONFIG: set these to your GitHub details ----
 const CONFIG = {
   owner: "ayxsh",
-  repo: "ayxsh.github.io",
+  repo: "ayxsh",
   branch: "main"
 };
 //------------------------------------------------
