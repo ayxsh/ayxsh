@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Company Culture and Benefits | Acme Technologies</title>
+  <meta name="description" content="Learn about the culture at Acme Technologies and the benefits we offer our employees.">
+  <style>
+    :root { --bg:#f2f5f1; --ink:#1c2b30; --muted:#52666b; --line:#c9d4cf; --accent:#1f6f5f; --mark:#e3a73c; --max:1080px; }
+    @media (prefers-color-scheme: dark) { :root { --bg:#131c1f; --ink:#e8efec; --muted:#9db0ab; --line:#2c3b3f; --accent:#5cc2ab; } }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; scroll-padding-top: 5rem; }
+    body { margin:0; background:var(--bg); color:var(--ink); font:400 1.0625rem/1.65 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+    a { color: var(--accent); }
+    header.top { position:sticky; top:0; z-index:5; display:flex; justify-content:space-between; align-items:center; padding:.9rem max(1.25rem, calc((100% - var(--max)) / 2)); background:var(--bg); border-bottom:1px solid var(--line); }
+    .brand { font-weight:700; font-size:1.1rem; color:var(--ink); text-decoration:none; }
+    header.top nav a { margin-left:1.5rem; color:var(--ink); text-decoration:none; font-weight:500; border-bottom:2px solid transparent; }
+    header.top nav a:hover { border-bottom-color:var(--mark); }
+    main, footer { max-width:var(--max); margin:0 auto; padding:0 1.25rem; }
+    .intro { padding:4.5rem 0 3rem; max-width:46rem; }
+    h1, h2, h3 { line-height:1.15; margin:0; }
+    h1 { font-size:clamp(2.2rem, 6vw, 3.6rem); letter-spacing:-.02em; }
+    .intro p { color:var(--muted); font-size:1.2rem; margin:1.25rem 0 0; }
+    .block { display:grid; grid-template-columns:1fr 2.2fr; gap:2rem 3rem; padding:3rem 0; border-top:1px solid var(--line); }
+    .label { align-self:start; position:sticky; top:5rem; }
+    h2 { font-size:1.9rem; }
+    .lead { font-size:1.15rem; margin:0 0 2rem; max-width:60ch; }
+    .group { margin:0 0 2.5rem; }
+    .group > h3 { font-size:1.3rem; padding-left:.75rem; border-left:4px solid var(--mark); margin-bottom:1.1rem; }
+    .item { padding:1.1rem 0; border-top:1px solid var(--line); display:grid; grid-template-columns:1fr 1.6fr; gap:.5rem 2rem; }
+    .group > h3 + .item { border-top:0; padding-top:0; }
+    .item h4 { margin:0; font-size:1.1rem; font-weight:600; }
+    .item p { margin:0; color:var(--muted); max-width:60ch; }
+    footer { padding:2rem 1.25rem 4rem; border-top:1px solid var(--line); color:var(--muted); font-size:.9rem; }
+    @media (max-width:760px) { .block { grid-template-columns:1fr; } .label { position:static; } .item { grid-template-columns:1fr; } }
+  </style>
+</head>
+<body>
+  <header class="top">
+    <a class="brand" href="#top" id="top">Acme Technologies</a>
+    <nav aria-label="Sections">
+      <a href="#culture">Culture</a>
+      <a href="#benefits">Benefits</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="intro">
+      <h1>How we work, and what we offer</h1>
+      <p>Acme Technologies is a team of 250 engineers, designers and analysts building software for clients across finance, retail and healthcare. This page describes our culture and the benefits every employee receives.</p>
+    </section>
+
+    <section id="culture" class="block" aria-labelledby="culture-h">
+      <div class="label"><h2 id="culture-h">Company culture</h2></div>
+      <div class="content">
+        <p class="lead">We hire thoughtful people, give them clear goals and trust them to do their best work. We prefer honest conversations over politics, and written decisions over hallway agreements.</p>
+
+        <div class="group">
+          <h3>What we value</h3>
+          <div class="item"><h4>Own the outcome</h4><p>Teams decide how to solve a problem and stay accountable for the result, from first idea to production support.</p></div>
+          <div class="item"><h4>Learn in the open</h4><p>We share what worked and what did not in writing, through blog posts, demos and post-project reviews, so others can build on it.</p></div>
+          <div class="item"><h4>Respect people's time</h4><p>Meetings have an agenda and an owner. Decisions are written down so nobody has to attend to stay informed.</p></div>
+          <div class="item"><h4>Be kind and direct</h4><p>We give feedback early, specifically and with care. We assume good intent and ask questions before drawing conclusions.</p></div>
+        </div>
+
+        <div class="group">
+          <h3>How we work</h3>
+          <div class="item"><h4>Flexible hours</h4><p>Each team agrees on four hours of core overlap. The rest of the day is yours to arrange around your life.</p></div>
+          <div class="item"><h4>Hybrid by default</h4><p>Offices in Mumbai and Bengaluru are open for collaboration days. Remote work is supported for most roles.</p></div>
+          <div class="item"><h4>Regular feedback</h4><p>Monthly one-to-one check-ins with your manager, plus a formal review twice a year focused on growth rather than ratings.</p></div>
+          <div class="item"><h4>Diverse and inclusive teams</h4><p>We recruit from varied backgrounds, run structured interviews and maintain employee groups that shape our policies.</p></div>
+        </div>
+
+        <div class="group">
+          <h3>Community</h3>
+          <div class="item"><h4>Volunteer days</h4><p>Two paid days each year to volunteer with a cause of your choice.</p></div>
+          <div class="item"><h4>Hack weeks</h4><p>Twice a year, everyone can spend a week on a side idea, a tool or a skill they want to try.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="benefits" class="block" aria-labelledby="benefits-h">
+      <div class="label"><h2 id="benefits-h">Benefits</h2></div>
+      <div class="content">
+        <p class="lead">Our benefits are designed to support your health, your time and your growth. They apply to all full-time employees from the first day of work.</p>
+
+        <div class="group">
+          <h3>Health and wellbeing</h3>
+          <div class="item"><h4>Medical insurance</h4><p>Group health cover for you, your spouse and up to two dependent children, including hospitalisation and maternity.</p></div>
+          <div class="item"><h4>Wellness allowance</h4><p>An annual allowance for gym membership, sports, yoga or counselling sessions.</p></div>
+          <div class="item"><h4>Mental health support</h4><p>Free, confidential counselling sessions for employees and their families through our employee assistance programme.</p></div>
+          <div class="item"><h4>Annual health check</h4><p>A full preventive health check-up every year, paid for by the company.</p></div>
+        </div>
+
+        <div class="group">
+          <h3>Time off</h3>
+          <div class="item"><h4>Paid annual leave</h4><p>24 days of paid leave each year, plus public holidays.</p></div>
+          <div class="item"><h4>Sick leave</h4><p>12 days of paid sick leave each year, with no documentation needed for short absences.</p></div>
+          <div class="item"><h4>Parental leave</h4><p>26 weeks of paid leave for birth parents and 12 weeks for all other new parents, including adoption.</p></div>
+          <div class="item"><h4>Year-end shutdown</h4><p>The office closes between Christmas and New Year, and this time does not count against your leave.</p></div>
+        </div>
+
+        <div class="group">
+          <h3>Financial</h3>
+          <div class="item"><h4>Provident fund</h4><p>Company contribution to your provident fund in line with statutory rules, with an optional higher contribution.</p></div>
+          <div class="item"><h4>Performance bonus</h4><p>An annual bonus linked to company and team results.</p></div>
+          <div class="item"><h4>Referral rewards</h4><p>A cash reward when someone you refer joins and completes six months with us.</p></div>
+          <div class="item"><h4>Life and accident cover</h4><p>Group term life and personal accident insurance at no cost to you.</p></div>
+        </div>
+
+        <div class="group">
+          <h3>Growth and learning</h3>
+          <div class="item"><h4>Learning budget</h4><p>An annual budget for courses, books, conferences and certifications of your choice.</p></div>
+          <div class="item"><h4>Mentorship</h4><p>Every new joiner is paired with a mentor for their first year, and anyone can request one later.</p></div>
+          <div class="item"><h4>Internal mobility</h4><p>After 12 months in a role you can apply to move to another team without needing your manager's approval.</p></div>
+        </div>
+
+        <div class="group">
+          <h3>Everyday perks</h3>
+          <div class="item"><h4>Home office setup</h4><p>A one-time allowance for a desk, chair and monitor, plus a monthly internet reimbursement.</p></div>
+          <div class="item"><h4>Meals and snacks</h4><p>Free lunch and snacks on office days, with vegetarian, vegan and allergy-friendly options.</p></div>
+          <div class="item"><h4>Commute support</h4><p>Shuttle service from major transit points, or a monthly travel allowance.</p></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Sample content for testing. &copy; 2026 Acme Technologies.</p>
+  </footer>
+</body>
+</html>
